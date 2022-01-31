@@ -12,8 +12,9 @@ function myFunction(){
             li[i].style.display = 'block';
             li[i].style.transition = '0.5s ease-in';
         }else{
+            li[i].style.display = 'none';
             li[i].style.transition = '0.5s ease-out';
-            li[i].style.display = '';
+            
         }
     }
 
