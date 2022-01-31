@@ -1,0 +1,39 @@
+
+.container{
+    width: 50%;
+    margin: 0 auto;
+}
+
+input[type=text]{
+    outline: none;
+    border: 1px solid rgba(0, 0, 0, 0.589);
+    border-radius: 5px;
+    padding: 10px;
+    width: 100%;
+}
+
+#myUL{
+    width: 100%;
+}
+
+#myUL li{
+    list-style-type: none;
+    padding: 10px;
+    border: 1px solid rgba(0, 0, 0, 0.397);
+    /* margin-bottom: 10px; */
+    transition: 0.5s ease-in;
+}
+
+li:nth-child(odd){
+    background-color: antiquewhite;
+}
+
+li:nth-child(even){
+    background-color: lightcoral;
+    
+}
+
+a{
+    text-decoration: none;
+    color: #000;
+}
